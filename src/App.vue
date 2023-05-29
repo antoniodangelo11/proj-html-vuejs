@@ -8,8 +8,8 @@ export default {
     AppHeader,
     AppMain,
     AppFooter,
-  }
-}
+  },
+};
 </script>
 
 <template>
