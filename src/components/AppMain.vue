@@ -3,6 +3,7 @@ import AppRegistration from './AppRegistration.vue';
 import AppCallUs from './AppCallUs.vue';
 import AppCourses from './AppCourses.vue';
 import AppPercentStat from './AppPercentStat.vue';
+import AppInstructors from './AppInstructors.vue';
 
 export default {
     data() {
@@ -21,6 +22,23 @@ export default {
                     title: 'ACCIDENT RATE',
                 },
             ],
+            ArrInstructors: [
+                {
+                    img: 'src/assets/img/instructor-mikehart-200x127.jpg',
+                    name: 'Mike Hart',
+                    text: 'Lorem ipsum dolor si amet, consectetur adispiscing elit.',
+                },
+                {
+                    img: 'src/assets/img/instructor-johnsmith-200x127.jpg',
+                    name: 'John Smith',
+                    text: 'Lorem ipsum dolor si amet, consectetur adispiscing elit.',
+                },
+                {
+                    img: 'src/assets/img/instructor-angelahart-200x127.jpg',
+                    name: 'Angela Hart',
+                    text: 'Lorem ipsum dolor si amet, consectetur adispiscing elit.',
+                },
+            ],
         }
     },
     components: {
@@ -28,6 +46,7 @@ export default {
         AppCallUs,
         AppCourses,
         AppPercentStat,
+        AppInstructors,
     },
 };
 </script>
@@ -38,6 +57,7 @@ export default {
         <AppCallUs />
         <AppCourses />
         <AppPercentStat :DataPercent="this.ArrPercent" />
+        <AppInstructors :DataInstructors="this.ArrInstructors" />
     </main>
 </template>
 

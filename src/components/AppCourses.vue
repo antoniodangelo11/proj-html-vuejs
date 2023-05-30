@@ -28,21 +28,21 @@ export default {
                         <div>
                             <img src="../assets/img/courses-passplus-200x200.jpg" alt="">
                             <div class="py-3">
-                                <h4 class="fw-bold">Pass Plus</h4>
+                                <h5 class="fw-bold">Pass Plus</h5>
                                 <button class="btn_learn fw-bold">LEARN MORE</button>
                             </div>
                         </div>
                         <div>
                             <img src="../assets/img/course-intensive-200x200.jpg" alt="">
                             <div class="py-3">
-                                <h4 class="fw-bold">Pass Plus</h4>
+                                <h5 class="fw-bold">Intensive Course</h5>
                                 <button class="btn_learn fw-bold">LEARN MORE</button>
                             </div>
                         </div>
                         <div>
                             <img src="../assets/img/courses-instructor-200x200.jpg" alt="">
                             <div class="py-3">
-                                <h4 class="fw-bold">Pass Plus</h4>
+                                <h5 class="fw-bold">Instructors</h5>
                                 <button class="btn_learn fw-bold">LEARN MORE</button>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ export default {
             padding: 10px 20px;
         }
 
-        h4 {
+        h5 {
             color: #929aa3;
         }
     }
