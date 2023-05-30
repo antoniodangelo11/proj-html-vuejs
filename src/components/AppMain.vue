@@ -6,6 +6,7 @@ import AppPercentStat from './AppPercentStat.vue';
 import AppInstructors from './AppInstructors.vue';
 import AppTestimonials from './AppTestimonials.vue';
 import AppLatestNews from './AppLatestNews.vue';
+import AppNewsletter from './AppNewsletter.vue';
 
 export default {
     data() {
@@ -105,6 +106,7 @@ export default {
         AppInstructors,
         AppTestimonials,
         AppLatestNews,
+        AppNewsletter,
     },
 };
 </script>
@@ -118,6 +120,7 @@ export default {
         <AppInstructors :DataInstructors="this.ArrInstructors" />
         <AppTestimonials :DataTestimonials="this.ArrTestimonials" />
         <AppLatestNews :DataNews="this.ArrNews" />
+        <AppNewsletter />
     </main>
 </template>
 

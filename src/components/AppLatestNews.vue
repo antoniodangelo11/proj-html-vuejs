@@ -20,7 +20,7 @@ export default {
                                         <img class="w-100" :src="news.img" :alt="news.img">
                                     </div>
                                     <div class="text_card text-center">
-                                        <div class="title py-2 fs-4">{{ news.title }}</div>
+                                        <div class="title py-2 fs-4 fw-bold">{{ news.title }}</div>
                                         <small class="sub_title">{{ news.sub_title }}</small>
                                         <div class="text py-2">{{ news.text }}</div>
                                     </div>
@@ -57,6 +57,18 @@ export default {
     h2 {
         color: #494C4E;
         margin-bottom: 2rem;
+    }
+
+    .title {
+        color: #7ABC64;
+    }
+
+    .sub_title {
+        color: #929aa3;
+    }
+
+    .text {
+        color: #929aa3;
     }
 }
 
