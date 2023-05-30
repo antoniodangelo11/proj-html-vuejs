@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <section class="bg_svg">
+    <section class="bg_svg py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -25,21 +25,19 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-// .bg_svg {
-//     // background-image: url(../assets/svg/driving-triangle.svg);
-//     // background-size: 
-// }
+.bg_svg {
+    background-image: url(../assets/svg/driving-triangle.svg);
+    background-size: cover;
+}
 
 .container {
     max-width: 1000px;
 
     .percent_info {
-        -moz-box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.4);
-        box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.4);
+        box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.6);
         position: relative;
         background-color: rgb(255, 255, 255);
         border-top: 7px solid #7ABC64;
-        margin-top: 2rem;
 
         .percent {
             position: absolute;

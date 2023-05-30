@@ -4,6 +4,8 @@ import AppCallUs from './AppCallUs.vue';
 import AppCourses from './AppCourses.vue';
 import AppPercentStat from './AppPercentStat.vue';
 import AppInstructors from './AppInstructors.vue';
+import AppTestimonials from './AppTestimonials.vue';
+import AppLatestNews from './AppLatestNews.vue';
 
 export default {
     data() {
@@ -42,6 +44,57 @@ export default {
                     text: 'Lorem ipsum dolor si amet, consectetur adispiscing elit.',
                 },
             ],
+            ArrTestimonials: [
+                {
+                    title: 'Testimonials',
+                    sub_title: `Here's what our happy drivers had to say about our services:`,
+                    img: 'src/assets/img/testimonial-sophia.png',
+                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
+                    name: 'Sophia Jones',
+                },
+                {
+                    title: 'Testimonials',
+                    sub_title: `Here's what our happy drivers had to say about our services:`,
+                    img: 'src/assets/img/testimonial-grant.png',
+                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
+                    name: 'Grant Harvey',
+                },
+                {
+                    title: 'Testimonials',
+                    sub_title: `Here's what our happy drivers had to say about our services:`,
+                    img: 'src/assets/img/testimonial-kelly.png',
+                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
+                    name: 'Kelly Johnson',
+                },
+                {
+                    title: 'Testimonials',
+                    sub_title: `Here's what our happy drivers had to say about our services:`,
+                    img: 'src/assets/img/testimonial-harold.png',
+                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
+                    name: 'Harold Green',
+                },
+                {
+                    title: 'Testimonials',
+                    sub_title: `Here's what our happy drivers had to say about our services:`,
+                    img: 'src/assets/img/testimonial-kate.png',
+                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
+                    name: 'Kate Lewis',
+                },
+            ],
+            ArrNews: [
+                {
+                    img: 'src/assets/img/blog-choosecar-700x441.jpg',
+                    title: 'What Car to Start With?',
+                    sub_title: 'February 7th 2019 | 0 Comments',
+                    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing'
+                },
+                {
+                    img: 'src/assets/img/blogpost-10and2-700x441.jpg',
+                    title: 'Avada Driving School Expanding',
+                    sub_title: 'February 7th 2019 | 0 Comments',
+                    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing'
+                },
+            ],
         }
     },
     components: {
@@ -50,6 +103,8 @@ export default {
         AppCourses,
         AppPercentStat,
         AppInstructors,
+        AppTestimonials,
+        AppLatestNews,
     },
 };
 </script>
@@ -61,6 +116,8 @@ export default {
         <AppCourses />
         <AppPercentStat :DataPercent="this.ArrPercent" />
         <AppInstructors :DataInstructors="this.ArrInstructors" />
+        <AppTestimonials :DataTestimonials="this.ArrTestimonials" />
+        <AppLatestNews :DataNews="this.ArrNews" />
     </main>
 </template>
 

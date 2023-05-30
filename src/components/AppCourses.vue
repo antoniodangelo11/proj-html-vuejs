@@ -64,8 +64,7 @@ export default {
     }
 
     .course_info {
-        -moz-box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.4);
-        box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.4);
+        box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.6);
         position: relative;
         bottom: 1.5rem;
         background-color: rgb(255, 255, 255);
@@ -88,8 +87,6 @@ export default {
 
         .btn_green {
             border-radius: 100px 100px 100px 100px;
-            -moz-border-radius: 100px 100px 100px 100px;
-            -webkit-border-radius: 100px 100px 100px 100px;
             border: 0px solid #000000;
             background-color: #7ABC64;
             color: #FFFFFF;

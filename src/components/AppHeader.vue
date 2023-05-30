@@ -99,8 +99,6 @@ export default {
 
     .btn_green {
         border-radius: 100px 100px 100px 100px;
-        -moz-border-radius: 100px 100px 100px 100px;
-        -webkit-border-radius: 100px 100px 100px 100px;
         border: 0px solid #000000;
         background-color: #7ABC64;
         color: #FFFFFF;
