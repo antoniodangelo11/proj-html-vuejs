@@ -11,8 +11,8 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <div class="percent_drivers d-flex gap-3 py-3">
-                        <div v-for="percent in this.DataPercent" :key="percent.title" class="percent_info p-5 rounded">
+                    <div class="percent_drivers d-flex py-3 gap-2">
+                        <div v-for="percent in this.DataPercent" :key="percent.title" class="percent_info rounded p-5">
                             <img :src="percent.img" :alt="percent.img">
                             <p class="text-center fw-bold">{{ percent.title }}</p>
                         </div>

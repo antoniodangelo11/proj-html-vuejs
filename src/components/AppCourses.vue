@@ -71,7 +71,7 @@ export default {
         background-color: rgb(255, 255, 255);
 
         h2 {
-            color: #7ABC64;
+            color: #494C4E;
         }
 
         p {
