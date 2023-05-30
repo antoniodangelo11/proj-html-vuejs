@@ -59,20 +59,20 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-10 offset-1">
-                    <div v-for="testimonial in DataTestimonials" :key="testimonial.name"
-                        class="testimonial_card d-flex flex-column text-center py-5">
-                        <div class="title">
-                            <h2 class="fw-bold">{{ testimonial.title }}</h2>
-                            <p>{{ testimonial.sub_title }}</p>
-                        </div>
-                        <div class="img_container">
-                            <img :src="testimonial.img" :alt="testimonial.img">
-                        </div>
-                        <div class="name_info">
-                            <p>{{ testimonial.text }}</p>
-                            <h4>{{ testimonial.name }}</h4>
-                        </div>
-                    </div>
+                    <!-- <div v-for="testimonial in DataTestimonials" :key="testimonial.name"
+                            class="testimonial_card d-flex flex-column text-center py-5">
+                            <div class="title">
+                                <h2 class="fw-bold">{{ testimonial.title }}</h2>
+                                <p>{{ testimonial.sub_title }}</p>
+                            </div>
+                            <div class="img_container">
+                                <img :src="testimonial.img" :alt="testimonial.img">
+                            </div>
+                            <div class="name_info">
+                                <p>{{ testimonial.text }}</p>
+                                <h4>{{ testimonial.name }}</h4>
+                            </div>
+                        </div> -->
                     <div class="testimonial_icons">
                         <a href=""></a>
                         <a href=""></a>

@@ -40,11 +40,13 @@ export default {
 .bg_news {
     background-image: url(../assets/img/latestnews-background.jpg);
     background-size: cover;
+    background-position: bottom;
 }
 
 .news_content {
     max-width: 1000px;
     margin: auto;
+    padding-bottom: 4rem;
 }
 
 .news_card {
