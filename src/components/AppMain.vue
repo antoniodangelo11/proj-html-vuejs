@@ -11,14 +11,17 @@ export default {
             ArrPercent: [
                 {
                     img: 'src/assets/img/95.png',
+                    percent: '95%',
                     title: 'PASS RATE',
                 },
                 {
                     img: 'src/assets/img/100.png',
+                    percent: '100%',
                     title: 'REFERRAL RATE',
                 },
                 {
                     img: 'src/assets/img/0.png',
+                    percent: '0%',
                     title: 'ACCIDENT RATE',
                 },
             ],

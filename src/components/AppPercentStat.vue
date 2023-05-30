@@ -10,10 +10,11 @@ export default {
     <section class="bg_svg">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12">
                     <div class="percent_drivers d-flex py-3 gap-2">
                         <div v-for="percent in this.DataPercent" :key="percent.title" class="percent_info rounded p-5">
                             <img :src="percent.img" :alt="percent.img">
+                            <div class="percent fs-1">{{ percent.percent }}</div>
                             <p class="text-center fw-bold">{{ percent.title }}</p>
                         </div>
                     </div>
@@ -25,8 +26,8 @@ export default {
 
 <style lang="scss" scoped>
 // .bg_svg {
-//     background-image: url(../assets/svg/driving-triangle.svg);
-//     background-size: cover;
+//     // background-image: url(../assets/svg/driving-triangle.svg);
+//     // background-size: 
 // }
 
 .container {
@@ -39,6 +40,15 @@ export default {
         background-color: rgb(255, 255, 255);
         border-top: 7px solid #7ABC64;
         margin-top: 2rem;
+
+        .percent {
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            top: 50%;
+            color: #929aa3;
+            transform: translate(60%, -35%);
+        }
 
         p {
             color: #929aa3;
