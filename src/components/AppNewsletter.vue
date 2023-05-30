@@ -36,6 +36,7 @@ export default {
     max-width: 500px;
     margin: auto;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .btn_green {

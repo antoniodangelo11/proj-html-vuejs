@@ -1,9 +1,17 @@
 <script>
-export default {
+import AppContact from './AppContact.vue';
 
+export default {
+    components: {
+        AppContact,
+    }
 }
 </script>
 
-<template></template>
+<template>
+    <footer>
+        <AppContact />
+    </footer>
+</template>
 
 <style lang="scss" scoped></style>
