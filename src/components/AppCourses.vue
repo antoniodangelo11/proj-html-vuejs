@@ -68,7 +68,7 @@ export default {
         box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.4);
         position: relative;
         bottom: 1.5rem;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
 
         h2 {
             color: #7ABC64;
