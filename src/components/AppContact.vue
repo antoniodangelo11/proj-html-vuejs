@@ -65,7 +65,7 @@ export default {
                         <img src="../assets/img/labels-400x87BOT.png" alt="">
                     </div>
                     <div>
-                        <button class="btn_green fw-bold p-2">BOOK NOW</button>
+                        <button class="btn_green fw-bold p-3">BOOK NOW</button>
                     </div>
 
                 </div>
@@ -77,6 +77,7 @@ export default {
 <style lang="scss" scoped>
 .bg_contact {
     background-image: url(../assets/img/footer-background-color.jpg);
+    background-position: bottom;
 }
 
 .container {
