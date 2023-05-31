@@ -90,7 +90,7 @@ export default {
 
 <style lang="scss" scoped>
 .top_nav_bg {
-    background-color: rgb(73, 76, 78);
+    background-color: rgb(28, 29, 30);
 
     .top_nav {
         max-width: 1000px;
