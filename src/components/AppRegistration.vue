@@ -22,7 +22,7 @@
 
             <div class="col-6">
                 <div class="form_sign_in p-5 rounded">
-                    <h2 class="text-center py-3">First Lesson Free!</h2>
+                    <h2 class="text-center py-3 fw-bold">First Lesson Free!</h2>
                     <p class="text-center py-3">Whenyou make a block booking with us your first lesson is included
                         free.</p>
                     <div class="input-group mb-3">
