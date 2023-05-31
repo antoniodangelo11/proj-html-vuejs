@@ -9,7 +9,7 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="call_us container d-flex align-items-center justify-content-between py-5">
+                    <div class="call_us container d-flex align-items-center justify-content-between">
                         <div class="text-light">
                             <h3>Start Learning to Drive Today</h3>
                             <p>Give us a call to schedule your first driving lesson</p>
@@ -30,9 +30,11 @@ export default {
     background-image: url(../assets/img/horizontal-cta-background.jpg);
     background-size: cover;
     background-position: center;
+    height: 250px;
 
     .call_us {
         max-width: 1000px;
+        padding-top: 5rem;
     }
 }
 
