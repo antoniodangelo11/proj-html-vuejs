@@ -82,12 +82,6 @@ export default {
             transform: scale(1.05);
         }
     }
-
-
-}
-
-.instructor_info> :nth-child(2) {
-    transform: scale(1.1);
 }
 
 .card_instructors {
