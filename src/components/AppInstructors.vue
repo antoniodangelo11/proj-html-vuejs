@@ -104,6 +104,7 @@ export default {
     .icons_social {
         i {
             color: #929aa3;
+            cursor: pointer;
         }
     }
 

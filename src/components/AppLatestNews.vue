@@ -16,7 +16,7 @@ export default {
                             <h2 class="fw-bold">Latest News</h2>
                             <div class="d-flex">
                                 <div v-for="news in this.DataNews" :key="news.title" class="px-3">
-                                    <div>
+                                    <div class="img_container">
                                         <img class="w-100" :src="news.img" :alt="news.img">
                                     </div>
                                     <div class="text_card text-center">
@@ -73,6 +73,16 @@ export default {
 
     .text {
         color: #929aa3;
+    }
+}
+
+.img_container {
+    img {
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }
 

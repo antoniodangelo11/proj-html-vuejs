@@ -13,10 +13,10 @@
                 </div>
                 <div class="col-4">
                     <div class="socials_icons text-light">
-                        <i class="fa-brands fa-facebook px-2"></i>
-                        <i class="fa-brands fa-twitter px-2"></i>
-                        <i class="fa-brands fa-youtube px-2"></i>
-                        <i class="fa-brands fa-instagram px-2"></i>
+                        <i class="fa-brands fa-facebook px-2"><a href="#"></a></i>
+                        <i class="fa-brands fa-twitter px-2"><a href="#"></a></i>
+                        <i class="fa-brands fa-youtube px-2"><a href="#"></a></i>
+                        <i class="fa-brands fa-instagram px-2"><a href="#"></a></i>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,8 @@
 }
 
 .socials_icons {
-    padding-left: 6rem;
+    padding-left: 10rem;
+    cursor: pointer;
 }
 
 .chevron_fixed {
@@ -70,7 +71,8 @@
     border-radius: 5px 5px 0px 0px;
 
     a {
-        color: rgb(255, 255, 255)
+        color: rgb(255, 255, 255);
+        cursor: pointer;
     }
 }
 </style>
