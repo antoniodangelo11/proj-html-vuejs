@@ -21,7 +21,7 @@ export default {
                             <div class="img_container">
                                 <img :src="testimonial.img" :alt="testimonial.img">
                             </div>
-                            <div class="name_info">
+                            <div class="name_info py-3">
                                 <p>{{ testimonial.text }}</p>
                                 <h4>{{ testimonial.name }}</h4>
                             </div>
