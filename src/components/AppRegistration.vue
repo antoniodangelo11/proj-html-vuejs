@@ -1,8 +1,4 @@
-<script>
-export default {
-
-}
-</script>
+<script></script>
 
 <template>
     <section class="user_registration container">
