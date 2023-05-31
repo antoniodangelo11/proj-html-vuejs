@@ -109,6 +109,7 @@ export default {
 
             &:hover {
                 transform: scale(1.05);
+                color: #7ABC64;
             }
         }
 

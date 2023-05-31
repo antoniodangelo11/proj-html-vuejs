@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
+  <AppHeader id="start" />
   <AppMain />
   <AppFooter />
 </template>

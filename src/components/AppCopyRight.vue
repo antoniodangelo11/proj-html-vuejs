@@ -24,6 +24,9 @@ export default {
                     </div>
                 </div>
             </div>
+            <div class="chevron_fixed">
+                <a href="#"><i class="fa-solid fa-chevron-up fa-xs"></i></a>
+            </div>
         </div>
     </section>
 </template>
@@ -60,5 +63,17 @@ export default {
 
 .socials_icons {
     padding-left: 6rem;
+}
+
+.chevron_fixed {
+    background-color: #494C4E;
+    padding: .1rem .5rem;
+    position: fixed;
+    bottom: 0%;
+    right: 20%;
+
+    a {
+        color: rgb(255, 255, 255)
+    }
 }
 </style>

@@ -22,6 +22,7 @@ export default {
                 },
                 {
                     title: 'COURSES',
+                    sub_title: 'NEW',
                     link: '#',
                     id: 3,
                 },
@@ -50,7 +51,8 @@ export default {
             <div class="top_nav container d-flex justify-content-between align-items-center">
                 <small>We have a 95% Successful Pass Rate!</small>
                 <small>
-                    <font-awesome-icon class="px-2" :icon="['fas', 'phone']" flip="horizontal" />Give us a call to book your
+                    <font-awesome-icon class="px-2" :icon="['fas', 'phone']" flip="horizontal" />Give us a call to book
+                    your
                     tuituon!
                     1-800-555-555
                 </small>
@@ -60,7 +62,7 @@ export default {
             <div class="nav_bg">
                 <div class="navbar container d-flex">
                     <img class="d-block" src="../assets/img/avada-drivers-logo-2x-200x39.png" alt="">
-                    <ul class="list-unstyled d-flex align-items-center">
+                    <ul class="list-unstyled d-flex">
                         <AppNav v-for="ObjNav in ArrNav" :key="ObjNav.id" :ObjNav="ObjNav" />
                     </ul>
                     <div>

@@ -10,12 +10,9 @@ export default {
             <div class="col-6">
                 <div class="text_sign_in p-4">
                     <h3 class="py-2 fw-bold">Get Behind The Wheel</h3>
-                    <p class="py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam quasi
-                        impedit
-                        aliquam
-                        dolor
-                        saepe vel, minus inventore tenetur tempore alias nihil odio quia nisi placeat quisquam ullam
-                        deserunt dolores!</p>
+                    <p class="py-2 fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam quasi
+                        impedit aliquam dolor.
+                    </p>
                     <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, quis ipsum.
                         Quibusdam ipsum
                         maiores
