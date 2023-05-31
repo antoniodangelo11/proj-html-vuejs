@@ -1,54 +1,6 @@
 <script>
 export default {
-    data() {
-        return {
-            activeIndex: 0,
-            isAutorun: true,
-            sliderDirection: 1,
-            idAutorun: null,
-            autorunTime: 3000,
-        }
-    },
-    // methods: {
-    //     methods: {
-    //         prevSlide() {
-    //             this.activeIndex--;
-    //             if (this.activeIndex < 0) {
-    //                 this.activeIndex = this.arrImages.length - 1;
-    //             }
-    //         },
 
-    //         nextSlide() {
-    //             this.activeIndex++;
-    //             if (this.activeIndex >= this.arrImages.length) {
-    //                 this.activeIndex = 0;
-    //             }
-    //         },
-
-    //         clickActiveImg(index) {
-    //             this.activeIndex = index;
-    //         },
-
-    //         runSlider() {
-    //             if (this.isAutorun) {
-    //                 this.idAutorun = setInterval(
-    //                     () => this.sliderDirection == 1 ? this.nextSlide() : this.prevSlide(), this.autorunTime
-    //                 );
-    //             }
-    //             else {
-    //                 clearInterval(this.idAutorun);
-    //             }
-    //         },
-
-    //         stopAutorun() {
-    //             clearInterval(this.idAutorun);
-    //         }
-    //     },
-
-    //     mounted() {
-    //         this.runSlider();
-    //     },
-    // },
     props: {
         DataTestimonials: Array,
     },
@@ -59,8 +11,9 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-10 offset-1">
-                    <!-- <div v-for="testimonial in DataTestimonials" :key="testimonial.name"
-                            class="testimonial_card d-flex flex-column text-center py-5">
+                    <div class="carousel-item active">
+                        <div v-for="testimonial in DataTestimonials" :key="testimonial.name"
+                            class="testimonial_card d-flex flex-column text-center">
                             <div class="title">
                                 <h2 class="fw-bold">{{ testimonial.title }}</h2>
                                 <p>{{ testimonial.sub_title }}</p>
@@ -72,13 +25,14 @@ export default {
                                 <p>{{ testimonial.text }}</p>
                                 <h4>{{ testimonial.name }}</h4>
                             </div>
-                        </div> -->
-                    <div class="testimonial_icons">
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
+                            <div class="icons_circle py-2">
+                                <i class="fa-solid fa-circle fa-2xs px-1"></i>
+                                <i class="fa-regular fa-circle fa-2xs px-1"></i>
+                                <i class="fa-regular fa-circle fa-2xs px-1"></i>
+                                <i class="fa-regular fa-circle fa-2xs px-1"></i>
+                                <i class="fa-regular fa-circle fa-2xs px-1"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,13 +43,20 @@ export default {
 <style lang="scss" scoped>
 .testimonials {
     background-image: url(../assets/img/testimonial-background.jpg);
-    background-size: contain cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: -5rem;
+    height: 650px;
 }
 
 .container {
     max-width: 1000px;
     margin: auto;
+}
+
+.testimonial_card {
+    margin-top: 8rem;
 }
 
 .title {
@@ -119,6 +80,12 @@ export default {
     }
 }
 
+.icons_circle {
+    i {
+        color: #929aa3;
+    }
+
+}
 
 
 .img_container {

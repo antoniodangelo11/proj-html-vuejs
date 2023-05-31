@@ -50,11 +50,13 @@ export default {
 }
 
 .news_card {
-    box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.6);
+    box-shadow: -7px 11px -1px -7px rgba(133, 133, 133, 0.6);
     background-color: rgb(255, 255, 255);
     border-top: 7px solid #929aa3;
     margin-top: 2rem;
     padding: 3rem;
+    position: relative;
+    margin-top: -3rem;
 
     h2 {
         color: #494C4E;

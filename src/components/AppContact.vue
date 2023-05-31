@@ -77,7 +77,7 @@ export default {
 <style lang="scss" scoped>
 .bg_contact {
     background-image: url(../assets/img/footer-background-color.jpg);
-    background-position: bottom;
+    background-position: center;
 }
 
 .container {
@@ -100,7 +100,7 @@ export default {
     background-color: #7ABC64;
     color: #FFFFFF;
     margin-top: 1rem;
-    margin-left: 3rem;
+    margin-left: 2.6rem;
 }
 
 .contact_details {

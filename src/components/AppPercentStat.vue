@@ -27,6 +27,8 @@ export default {
 <style lang="scss" scoped>
 .bg_svg {
     background-image: url(../assets/svg/driving-triangle.svg);
+    background-repeat: round;
+    background-position: bottom;
     background-size: cover;
 }
 

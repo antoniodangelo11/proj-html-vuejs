@@ -53,34 +53,6 @@ export default {
                     text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
                     name: 'Sophia Jones',
                 },
-                {
-                    title: 'Testimonials',
-                    sub_title: `Here's what our happy drivers had to say about our services:`,
-                    img: 'src/assets/img/testimonial-grant.png',
-                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
-                    name: 'Grant Harvey',
-                },
-                {
-                    title: 'Testimonials',
-                    sub_title: `Here's what our happy drivers had to say about our services:`,
-                    img: 'src/assets/img/testimonial-kelly.png',
-                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
-                    name: 'Kelly Johnson',
-                },
-                {
-                    title: 'Testimonials',
-                    sub_title: `Here's what our happy drivers had to say about our services:`,
-                    img: 'src/assets/img/testimonial-harold.png',
-                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
-                    name: 'Harold Green',
-                },
-                {
-                    title: 'Testimonials',
-                    sub_title: `Here's what our happy drivers had to say about our services:`,
-                    img: 'src/assets/img/testimonial-kate.png',
-                    text: 'Avada Driving School reall helped build my confidence behind the wheel and with driving in general, and they got me a first time pass! Higly recommended.',
-                    name: 'Kate Lewis',
-                },
             ],
             ArrNews: [
                 {

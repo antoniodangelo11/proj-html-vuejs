@@ -37,6 +37,10 @@ export default {
     margin: auto;
     padding-top: 3rem;
     padding-bottom: 3rem;
+
+    h2 {
+        color: #494C4E;
+    }
 }
 
 .btn_green {

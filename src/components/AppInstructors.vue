@@ -12,7 +12,7 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-7">
-                    <div class="d-flex flex-column">
+                    <div class="d-flex flex-column info_instructors">
                         <h2>Your Instructors</h2>
                         <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsam
                             laborum cupiditate
@@ -84,7 +84,7 @@ export default {
 }
 
 .card_instructors {
-    box-shadow: -7px 11px 29px -7px rgba(133, 133, 133, 0.6);
+    box-shadow: -7px 11px 50px -7px rgba(133, 133, 133, 0.8);
     position: relative;
     background-color: rgb(255, 255, 255);
     border-top: 7px solid #7ABC64;
