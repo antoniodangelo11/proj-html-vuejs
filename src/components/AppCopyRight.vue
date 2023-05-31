@@ -67,10 +67,11 @@ export default {
 
 .chevron_fixed {
     background-color: #494C4E;
-    padding: .1rem .5rem;
+    padding: .2rem 1rem;
     position: fixed;
     bottom: 0%;
-    right: 20%;
+    right: 5%;
+    border-radius: 5px 5px 0px 0px;
 
     a {
         color: rgb(255, 255, 255)

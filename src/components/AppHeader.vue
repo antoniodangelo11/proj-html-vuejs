@@ -75,6 +75,16 @@ export default {
                 <p>We Offer the finest driving tuition money can buy</p>
             </div>
         </div>
+        <div class="cart_fixed">
+            <div class="py-2">
+                <i class="fa-solid fa-cart-shopping fa-flip-horizontal fa-xs"></i>
+            </div>
+        </div>
+        <div class="folder_fixed">
+            <div class="py-2">
+                <i class="fa-regular fa-folder-open fa-xs"></i>
+            </div>
+        </div>
     </header>
 </template>
 
@@ -132,5 +142,25 @@ export default {
         height: 100%;
 
     }
+}
+
+.cart_fixed {
+    background-color: #f6f6f6;
+    padding: .2rem 1rem;
+    position: fixed;
+    top: 18.5%;
+    right: 1%;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.folder_fixed {
+    background-color: #f6f6f6;
+    padding: .2rem 1rem;
+    position: fixed;
+    top: 13%;
+    right: 1%;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
 }
 </style>
