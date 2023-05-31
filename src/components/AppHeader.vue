@@ -47,7 +47,7 @@ export default {
 
 <template>
     <header>
-        <div class="top_nav_bg">
+        <div class="top_nav_bg" id="start">
             <div class="top_nav container d-flex justify-content-between align-items-center">
                 <small>We have a 95% Successful Pass Rate!</small>
                 <small>

@@ -25,7 +25,7 @@ export default {
                 </div>
             </div>
             <div class="chevron_fixed">
-                <a href="#"><i class="fa-solid fa-chevron-up fa-xs"></i></a>
+                <a href="#start"><i class="fa-solid fa-chevron-up fa-xs"></i></a>
             </div>
         </div>
     </section>

@@ -69,7 +69,6 @@ export default {
                     <div>
                         <button class="btn_green fw-bold p-3">BOOK NOW</button>
                     </div>
-
                 </div>
             </div>
         </div>
