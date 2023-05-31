@@ -19,7 +19,9 @@ export default {
                 </div>
                 <div class="col-3">
                     <ul class="contact_details">
-                        <li class="fw-bold text-light py-3">CONTACT DETAILS</li>
+                        <li class="fw-bold text-light py-3">
+                            CONTACT DETAILS
+                        </li>
                         <li>
                             <i class="fa-solid fa-house"></i>
                             12345 North Main Street, New York, NY 555555
