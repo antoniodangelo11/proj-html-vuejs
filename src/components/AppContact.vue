@@ -101,7 +101,15 @@ export default {
     color: #FFFFFF;
     margin-top: 1rem;
     margin-left: 2.6rem;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
+
+
+
 
 .contact_details {
     list-style: none;

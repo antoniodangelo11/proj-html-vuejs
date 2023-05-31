@@ -50,6 +50,11 @@ export default {
     color: #FFFFFF;
     padding: .5rem 2rem;
     white-space: nowrap;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .sub_title {

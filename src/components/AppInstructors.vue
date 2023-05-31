@@ -76,7 +76,14 @@ export default {
         color: #FFFFFF;
         padding: .5rem 8rem;
         white-space: nowrap;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
+
+
 }
 
 .instructor_info> :nth-child(2) {
@@ -89,6 +96,8 @@ export default {
     background-color: rgb(255, 255, 255);
     border-top: 7px solid #7ABC64;
     margin-top: 2rem;
+    transition: transform 0.3s ease-in-out;
+
 
     h5 {
         color: #494C4E;
@@ -102,6 +111,10 @@ export default {
         i {
             color: #929aa3;
         }
+    }
+
+    &:hover {
+        transform: scale(1.05);
     }
 }
 </style>

@@ -102,6 +102,11 @@ export default {
         border: 0px solid #000000;
         background-color: #7ABC64;
         color: #FFFFFF;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     .navbar {

@@ -84,6 +84,12 @@ export default {
     padding: .5rem 2rem;
     white-space: nowrap;
     margin-top: 3rem;
+
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .news_triangle {
